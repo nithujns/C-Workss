@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3FF05421-D4BF-4AFC-A38E-7210B11B15ED}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_1000cSharpPractice</RootNamespace>
+    <AssemblyName>1000cSharpPractice</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accessspecifiers.cs" />
+    <Compile Include="altintpattern.cs" />
+    <Compile Include="area of the house.cs" />
+    <Compile Include="Atm_transaction.cs" />
+    <Compile Include="average.cs" />
+    <Compile Include="Binary Triangle.cs" />
+    <Compile Include="calculateHeight.cs" />
+    <Compile Include="CountNoOfOnes.cs" />
+    <Compile Include="count_the_word.cs" />
+    <Compile Include="DateandTime.cs" />
+    <Compile Include="diamondusingnestedloop.cs" />
+    <Compile Include="EvenOrOdd.cs" />
+    <Compile Include="grade values.cs" />
+    <Compile Include="greatestnum.cs" />
+    <Compile Include="ienum.cs" />
+    <Compile Include="LeapYear.cs" />
+    <Compile Include="leftShift.cs" />
+    <Compile Include="Magnitude.cs" />
+    <Compile Include="num like triangle.cs" />
+    <Compile Include="NumberInReverse.cs" />
+    <Compile Include="Phonebook.cs" />
+    <Compile Include="PositiveOrNot.cs" />
+    <Compile Include="primenum.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sealedclass.cs" />
+    <Compile Include="SumOfDigits.cs" />
+    <Compile Include="swapNumbers.cs" />
+    <Compile Include="swapping.cs" />
+    <Compile Include="unboxing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
